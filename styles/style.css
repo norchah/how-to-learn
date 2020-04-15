@@ -178,18 +178,21 @@
 }
 
 .feynman {
-  min-height: 700px;
+  min-height: 890px;
   position: relative;
+  background-color: #f2f2f2;
+  z-index: -2;
 }
 
 .feynman__title {
+  width: 648px;
   font-size: 120px;
-  line-height: 1.15em;
+  line-height: 1.15;
   font-weight: bold;
   text-align: center;
-  width: 648px;
-  margin: 100px auto 0;
+  margin: 0 auto;
   position: relative;
+  top: 100px; left: 0; right: 0;
 }
 
 .feynman__subtitle {
@@ -197,8 +200,10 @@
   line-height: 51px;
   font-weight: normal;
   text-align: center;
+  margin: 0 auto;
   position: relative;
-  margin: 70px auto 0;
+  top: 170px;
+
 }
 
 .feynman__link {
