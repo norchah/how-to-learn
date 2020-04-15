@@ -33,6 +33,7 @@
 .logo {
   width: 183px;
   height: 32px;
+  z-index: 3;
 }
 
 .header__title {
@@ -41,6 +42,7 @@
   width: 730px;
   margin-left: 64px;
   line-height: 96px;
+  z-index: 3;
 }
 
 .header__subtitle {
@@ -50,6 +52,7 @@
   bottom: 30px;
   font-size: 18px;
   line-height: 25px;
+  z-index: 3;
 }
 
 .header__link {
@@ -173,6 +176,52 @@
 .table__text_cite {
   margin: 0;
 }
+
+.feynman {
+  min-height: 700px;
+  position: relative;
+}
+
+.feynman__title {
+  font-size: 120px;
+  line-height: 1.15em;
+  font-weight: bold;
+  text-align: center;
+  width: 648px;
+  margin: 100px auto 0;
+  position: relative;
+}
+
+.feynman__subtitle {
+  font-size: 36px;
+  line-height: 51px;
+  font-weight: normal;
+  text-align: center;
+  position: relative;
+  margin: 70px auto 0;
+}
+
+.feynman__link {
+  text-decoration: none;
+  font-size: 36px;
+  line-height: 51px;
+  font-weight: normal;
+  text-align: center;
+  position: absolute;
+  right: 48px;
+  top: 50%;
+  color :#000;
+}
+
+.feynman__image {
+  width: 867px;
+  height: 637px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
     width: 200px;
