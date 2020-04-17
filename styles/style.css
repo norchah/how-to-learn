@@ -156,7 +156,7 @@
   justify-content: space-between;
 }
 
-.table_cell {
+.table__cell {
   width: 250px;
   margin: 60px 0 0;
 }
@@ -242,7 +242,7 @@
   z-index: 1;
 }
 
-.table__theme_dark::after {
+.table_theme_dark::after {
   content: '';
   background-image: url('../images/kaufman-triangle.svg');
   background-size: cover;
