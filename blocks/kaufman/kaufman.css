@@ -1,0 +1,15 @@
+@import url('./_theme_dark/table__cell_theme_dark.css');
+@import url('./_theme_dark/table_theme_dark.css');
+@import url('./_theme_dark/section-title_theme-dark.css');
+
+/*В предыдущей версии проекта были созданы классы в html и css, следуя брифу и комментариям ревьюера.
+В этой версии я создал для них пустые файлы, но подключать не стал. Ну они же пустые*/
+/*Здесь и в футере*/
+
+.kaufman {
+  background-color: #1f1f1f;
+  color: white;
+  padding: 90px 0 90px;
+  position: relative;
+  overflow: hidden;
+}

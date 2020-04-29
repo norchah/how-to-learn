@@ -1,0 +1,11 @@
+@import url('./__flex-container/table__flex-container.css');
+@import url('./__cell/table__cell.css');
+@import url('./__heading/table__heading.css');
+@import url('./__text/table__text.css'); /*В предыдущей версии был модификатор для "Всемирного банка" (cite),
+                                          сейчас обнаружил что он не нужен вообще, просто поменял нижний маргин
+                                          параграфа. Лишние классы убрал, но отдельный параграф (для Банка) оставил*/
+
+.table {
+  width: 1100px;
+  margin: 0 auto;
+}
