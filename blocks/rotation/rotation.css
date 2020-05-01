@@ -1,4 +1,4 @@
-@import url('./keyframes/rotation.css');
+@import url('./keyframes/rotation_keyframes.css');
 
 .rotation {
   animation: rotation 20s linear infinite;
