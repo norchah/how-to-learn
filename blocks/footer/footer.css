@@ -8,6 +8,10 @@
 @import url('./__column-link/footer__column-link.css');
 @import url('./__social-icon/footer__social-icon.css');
 
+/*В предыдущей версии проекта были созданы классы в html и css, следуя брифу и комментариям ревьюера.
+В этой версии я создал для них пустые файлы, но подключать не стал. Ну они же пустые*/
+/*Здесь и в блоке kaufman*/
+
 .footer {
   background-color: #1f1f1f;
   color: white;
