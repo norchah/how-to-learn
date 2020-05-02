@@ -1,5 +1,4 @@
 @import url('../vendor/normalize.css');
-@import url('../blocks/link/link.css');
 @import url('../blocks/rotation/rotation.css');
 @import url('../blocks/page/page.css');
 @import url('../blocks/section-title/section-title.css');
@@ -20,4 +19,9 @@
 @import url('../blocks/resources/resources.css');
 @import url('../blocks/footer/footer.css');
 
-
+/*В ревью кода, в папке footer/__column висит "красная" ошибка без комментариев.
+https://hkar.ru/11S65
+У меня есть два варианта: 1. Либо удалить файл footer__column.css, так как он совсем
+не используется; 2. Либо через него подключить модификаторы и его подключить здесь.
+Как поступить верно и по БЭМ, своими силами решить не могу. Ну или ошибка иного рода.*/
+/*Или я смотрю не туда, но пока менять ничего не стал*/

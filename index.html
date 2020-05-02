@@ -11,10 +11,10 @@
         <header class="header">
           <img class="logo logo_place_header" src="./images/logo/logo_place_header.svg" alt="Логотип 'Яндекс Практикум'">
           <h1 class="header__title">Научиться учиться</h1>
-          <h2 class="header__subtitle">
+          <p class="header__subtitle"> <!--В первой версии рботы тоже были правки подзаголовков, а в этом месте я как-то упустил из виду-->
             Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
-            <a class="header__link link" href="#" >Узнать &rarr;</a>
-          </h2>
+            <a class="header__link" href="#" >Узнать &rarr;</a>
+          </p>
           <img class="header__main-illustration" src="./images/header-image.png" alt="Фрагмент картины Ф.П. Решетникова 'Опять двойка'">
           <div class="header__square-pic rotation"></div>
         </header>
@@ -44,33 +44,33 @@
           <section class="techniques">
             <h2 class="section-title techniques__section-title">Техники обучения</h2>
             <p class="section-subtitle techniques__section-subtitle">Пять практик от Барбары Оакли</p>
-            <article class="cards">
+            <div class="cards">
               <div class="cards__item">
                 <img class="cards__image" src="./images/cards-attention.png" alt="Обложка книги про изменение мышления">
                 <h3 class="cards__title">Два вида внимания</h3>
-                <p class="cards__descrition">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
+                <p class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
               </div>
               <div class="cards__item">
                 <img class="cards__image" src="./images/cards-recall.png" alt="Скульптура обнаженный курящий молодой человек">
                 <h3 class="cards__title">Recall</h3>
-                <p class="cards__descrition">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</p>
+                <p class="cards__description">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</p>
               </div>
               <div class="cards__item">
                 <img class="cards__image" src="./images/cards-interliving.png" alt="Национальный музей 9/11">
                 <h3 class="cards__title">Интерливинг</h3>
-                <p class="cards__descrition">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
+                <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
               </div>
               <div class="cards__item">
                 <img class="cards__image" src="./images/cards-question.png" alt="Комната в стиле минимализм">
                 <h3 class="cards__title">Вопросы</h3>
-                <p class="cards__descrition">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.</p>
+                <p class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.</p>
               </div>
               <div class="cards__item">
                 <img class="cards__image" src="./images/cards-competence.png" alt="Стопка книг">
                 <h3 class="cards__title">Иллюзия компетентности</h3>
-                <p class="cards__descrition">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</p>
+                <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</p>
               </div>
-            </article>
+            </div>
           </section>
 
           <section class="video">
@@ -110,7 +110,7 @@
           <section class="feynman">
             <h2 class="feynman__title">Метод Фейнмана</h2>
             <h3 class="feynman__subtitle">Выучить и не забыть.</h3>
-            <a class="feynman__link link" href="#">Подробнее &rarr;</a>
+            <a class="feynman__link" href="#">Подробнее &rarr;</a>
           </section>
 
           <section class="digits">
@@ -168,7 +168,7 @@
                 <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
               <div class="khan__book-contaier">
                 <div class="khan__book-pic"></div>
-                <a class="khan__buy-link link" href="#">Купить книгу &rarr;</a>
+                <a class="khan__buy-link" href="#">Купить книгу &rarr;</a>
               </div>
             </article>
           </section>
@@ -227,16 +227,16 @@
             <h2 class="section-title">Полезные ресурсы</h2>
             <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
             <div class="resources__logo-zone">
-              <a class="link" href="https://arzamas.academy" target="_blank">
+              <a class="resourses__link" href="https://arzamas.academy" target="_blank">
                 <img class="resources__logo" src="./images/logo/resources-arzamas.svg" alt="Логотип Арзамас">
               </a>
-              <a class="link" href="https://nplus1.ru" target="_blank">
+              <a class="resourses__link" href="https://nplus1.ru" target="_blank">
                 <img class="resources__logo" src="./images/logo/resources-n1.svg" alt="Логотип N+1">
               </a>
-              <a class="link" href="https://strelkacard.ru" target="_blank">
+              <a class="resourses__link" href="https://strelka.com/" target="_blank">
                 <img class="resources__logo" src="./images/logo/resources-strelka.svg" alt="Логотип Стрелка">
               </a>
-              <a class="link" href="https://polka.academy" target="_blank">
+              <a class="resourses__link" href="https://polka.academy" target="_blank">
                 <img class="resources__logo" src="./images/logo/resources-polka.svg" alt="Логотип Полка">
               </a>
             </div>
@@ -244,14 +244,14 @@
         </main>
 
         <footer class="footer">
-          <article class="footer__columns">
+          <div class="footer__columns">
             <div class="footer__column footer__column_content_copyright">
               <img class="logo logo_place_footer" src="./images/logo/logo_place_footer.svg" alt="Логотип 'Яндекс Практикум'">
-              <p class="footer__author">&copy; 2020. Антон Харченко</p> <!-- Оказывается надо было своё имя писать, а не как в брифе =)-->
+              <p class="footer__author">&copy; 2020. Антон Харченко</p>
             </div>
             <div class="footer__column footer__column_content_info">
               <h2 class="footer__column-heading">О Практикуме</h2>
-              <nav class="footer__menu">
+              <nav>
                 <ul class="footer__column-links">
                 <li>
                   <a class="footer__column-link link" href="https://praktikum.yandex.ru/" target="_blank">Главная</a>
@@ -288,7 +288,7 @@
                 </li>
               </ul>
             </div>
-          </article>
+          </div>
         </footer>
 
     </div>

@@ -1,7 +1,7 @@
 .footer__columns {
   width: 90%;
-  height: 310px;
-  margin: 0 auto;
+  min-height: 250px; /*не придумал ничего лучше такого решения,  */
+  margin: 0 auto;    /*что б сильно не ограничивать текстовые блоки*/
   display: flex;
   justify-content: space-between;
 }

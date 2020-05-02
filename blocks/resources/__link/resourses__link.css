@@ -1,8 +1,8 @@
-.link {
+.resourses__link {
   text-decoration: none;
 }
 
-.link:hover {
+.resourses__link:hover {
   opacity: .65;
   transition: opacity .2s linear;
 }

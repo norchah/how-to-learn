@@ -1,21 +1,24 @@
 @import url('./__columns/footer__columns.css');
 @import url('./__column/_content/footer__column_content_copyright.css');
-@import url('./__logo/_place_logo/logo_place_footer.css');
 @import url('./__author/footer__author.css');
-@import url('./__column/_content/footer__column_content_info.css.css');
+@import url('./__column/_content/footer__column_content_info.css');
 @import url('./__column-heading/footer__column-heading.css');
 @import url('./__column-links/footer__column-links.css');
 @import url('./__column-link/footer__column-link.css');
 @import url('./__social-icon/footer__social-icon.css');
 
-/*В предыдущей версии проекта были созданы классы в html и css, следуя брифу и комментариям ревьюера.
-В этой версии я создал для них пустые файлы, но подключать не стал. Ну они же пустые*/
-/*Здесь и в блоке kaufman*/
+/*В ревью кода, в папке footer/__column висит "красная" ошибка без комментариев.
+https://hkar.ru/11S65
+У меня есть два варианта: 1. Либо удалить файл footer__column.css, так как он совсем
+не используется; 2. Либо через него подключить модификаторы и его подключить здесь.
+Как поступить верно и по БЭМ, своими силами решить не могу. Ну или ошибка иного рода.*/
+/*Или я смотрю не туда, но пока менять ничего не стал*/
 
 .footer {
   background-color: #1f1f1f;
   color: white;
   min-height: 350px;
-  padding: 60px 0 0;
+  padding: 60px 0 40px;
   position: relative;
+  box-sizing: border-box;
 }
