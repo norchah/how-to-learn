@@ -1,8 +1,9 @@
 .header__title {
   font-size: 102px;
   font-weight: bold;
-  width: 730px;
-  margin-left: 64px;
-  line-height: 96px;
-  z-index: 3;
+  max-width: 730px;
+  width: 100%;              /*До адаптивности мы ещё не доросли, мы пока используем */
+  margin-left: 64px;        /* наработки первой п.работы, а в брифе указана */
+  line-height: 96px;        /* фиксированная ширина этого элемента. */
+  z-index: 3;               /* Но я сделал и это как-то работает =)*/
 }

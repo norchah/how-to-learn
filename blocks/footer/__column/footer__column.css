@@ -1,0 +1,6 @@
+.footer__column {
+  display: flex;
+  flex-direction: column;
+}
+/* Так же я удалил display: flex; и flex-direction: column; у
+footer__column_content-copyright.css, так как повторяет это правило*/

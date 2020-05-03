@@ -1,8 +1,20 @@
 @import url('./__flex-container/table__flex-container.css');
 @import url('./__cell/table__cell.css');
+@import url('./__cell/_theme_dark/table__cell_theme_dark.css');
 @import url('./__heading/table__heading.css');
+@import url('./__heading/_theme_dark/table__heading_theme_dark.css');
 @import url('./__text/table__text.css');
-@import url('./_theme_dark/table__cell_theme_dark.css');
+@import url('./__text/_theme_dark/table__text_theme_dark.css');
+/*table_theme_dark.css не подключил, потому что он пустой, что б браузер лишний раз
+не ходил по бесполезным ссылкам*/
+
+/*А есть ли смысл использовать table__text_theme_dark как модификатор (не по брифу,
+а вообще), если этот текст находится в ячейке <td> с классом "table__cell_theme_dark",
+в котором уже прописан color: white;? Ведь для <td> на черном фоне, в любом случае
+будет присвоен класс table__cell_theme_dark (родитель table__text_theme_dark), c белым текстом.
+Это расчет на возможность использования модификаторов в иных интерфейсах и блоках?
+Вопрос именно о тёмной теме, а не для красного текста (например), и т.п., подозреваю,
+для других цветов будут свои модификаторы*/
 
 .table {
   width: 1100px;
